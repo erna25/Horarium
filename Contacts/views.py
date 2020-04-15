@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Контактная информация")
+    return render(request, 'Contacts/homepage.html', )
 # Create your views here.
